@@ -1,0 +1,12 @@
+field,data_type,example,purpose_privacy_note,validation_rule,requiredness
+patient_id,String,P001,Pseudonymous record key; not a direct identifier,Unique per cleaned record,Required
+sex,Categorical,F / M,Broad demographic field; retained in de-identified sample,F or M,Optional
+age_years,Integer,28,Age in completed years,0–120,Optional
+visit_date,Date,2026-08-01,Date of healthcare visit; no name/address/contact included,ISO YYYY-MM-DD,Required
+condition,Categorical,Hypertension,Reported condition in synthetic sample,Controlled text category; blank allowed,Optional
+systolic_bp_mmHg,Numeric,128,Systolic blood pressure in mmHg,70–250 for validation; clinical review if unusual,Optional
+diastolic_bp_mmHg,Numeric,82,Diastolic blood pressure in mmHg,40–150 for validation,Optional
+heart_rate_bpm,Numeric,72,Heart rate in beats per minute,30–220 for validation,Optional
+hba1c_percent,Numeric,5.4,HbA1c percentage,3–10 for validation in this exercise,Optional
+smoker,Categorical,No,Smoking status flag,Yes / No,Optional
+state,Categorical,Maharashtra,State-level geography only; no street address,Maharashtra / Gujarat / Karnataka / Goa,Optional

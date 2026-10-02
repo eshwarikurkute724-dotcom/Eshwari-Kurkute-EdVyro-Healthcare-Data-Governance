@@ -1,0 +1,10 @@
+exception_id,issue_type,record,action,status
+R001,Duplicate patient record,P023 appears twice with identical values,Remove exact duplicate row; retain first record,Resolved
+R002,Missing value,P021 age_years is missing,Keep missing; do not invent age,Open
+R003,Type inconsistency,P022 BP/HbA1c values stored as text,Convert valid numeric strings to numeric,Resolved
+R004,Out-of-range BP,P024 systolic BP = 201 mmHg,Flag as clinically unusual but retain because it is plausible; no invented replacement,Reviewed
+R005,Invalid age,P025 age = -4 years,Set to missing; do not impute,Resolved
+R006,Out-of-range HbA1c,P026 HbA1c = 12.5% exceeds task validation range,Set to missing; do not invent a replacement,Resolved
+R007,Invalid category,P027 state = Unknownland,Set to missing,Resolved
+R008,Invalid category,P028 smoker = Maybe,Set to missing,Resolved
+R009,Missing condition,P029 condition is blank,Keep missing; do not infer diagnosis,Open

@@ -1,0 +1,24 @@
+EDVYRO TASK 1 — SUBMISSION CHECKLIST
+
+1. Upload the ZIP contents to a GitHub repository or Google Drive folder.
+2. Make the repository/folder public or view-only as required by EdVyro.
+3. Use the repository/folder URL as the single proof link.
+4. Keep these files together:
+   - 01_raw_synthetic_patient_records.csv
+   - 02_cleaned_patient_records.csv
+   - 03_quality_exception_log.csv
+   - 04_data_dictionary.csv
+   - 05_validation_and_cleaning.py
+   - EdVyro_Task1_Healthcare_Data_Governance.xlsx
+   - README.md
+
+Suggested repository title:
+Eshwari-Kurkute-EdVyro-Healthcare-Data-Governance
+
+Suggested proof-link description:
+"Healthcare Data Governance and Cleaning — synthetic de-identified dataset,
+validation rules, cleaned records, data dictionary and quality exception log."
+
+Important:
+This package uses synthetic records created for the portfolio task. Do not describe
+them as real patient records.
